@@ -1,0 +1,61 @@
+#calendar {
+  border: 2px solid black;
+  background: #E0FFFF;
+  border-collapse: collapse;
+}
+
+.cal-month {
+  font-size: 15pt; 
+  display: inline-block; 
+  padding: 10px;
+  border-left: 2px solid black;
+}
+
+.cal-header {
+  background: #FF4040;
+  border-spacing: 0px;
+  text-align: center;
+}
+
+.cal-header-day {
+  text-align: center;
+}
+
+.cal-day {
+  padding: 5px;
+  text-align: center;
+}
+
+.cal-day:hover {
+  cursor: pointer;
+  background-color: #66FFFF;
+}
+
+.month-now {
+  padding: 10px;
+  text-align: center;
+}
+
+
+.month-nav:hover {
+  cursor: pointer;
+  background-color: #66FFFF;
+}
+
+.month-nav {
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+#today {
+  color: #0000FF;
+  border: 1px solid black;
+}
+
+#display-date {
+  font-size: 100pt;
+  display: inline-block;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
